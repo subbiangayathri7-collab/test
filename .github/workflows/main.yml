@@ -1,4 +1,4 @@
-name: simple
+name: simple workflow
 
 on:
   push:
@@ -17,4 +17,4 @@ jobs:
         run: pip install python
 
       - name: Run test
-        run:  pytest
+        run: pytest
